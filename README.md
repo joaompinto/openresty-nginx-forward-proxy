@@ -7,6 +7,14 @@ You can easily build a HTTP proxy server using this.
 
 ## Try this container
 
+### IPV6
+
+By default IPV6 is disable, to enable it, in `nginx.conf` remove or set to true the following property
+
+```
+ipv6=off;
+```
+
 ### Requirement packages
 
 - Docker
